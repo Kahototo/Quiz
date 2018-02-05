@@ -14,6 +14,8 @@
 		5E00BDA51F7B57D800CF8AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E00BDA31F7B57D800CF8AAD /* LaunchScreen.storyboard */; };
 		5E00BDB01F7B57D900CF8AAD /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E00BDAF1F7B57D900CF8AAD /* QuizTests.swift */; };
 		5E00BDBB1F7B57D900CF8AAD /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E00BDBA1F7B57D900CF8AAD /* QuizUITests.swift */; };
+		5E00BDC91F7B584800CF8AAD /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E00BDC81F7B584800CF8AAD /* QuizViewController.swift */; };
+		5E00BDCC1F7B58A200CF8AAD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E00BDCB1F7B58A200CF8AAD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5E00BDB61F7B57D900CF8AAD /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E00BDBA1F7B57D900CF8AAD /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		5E00BDBC1F7B57D900CF8AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E00BDC81F7B584800CF8AAD /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		5E00BDCB1F7B58A200CF8AAD /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				5E00BD9A1F7B57D800CF8AAD /* AppDelegate.swift */,
 				5E00BD9C1F7B57D800CF8AAD /* ViewController.swift */,
+				5E00BDC81F7B584800CF8AAD /* QuizViewController.swift */,
+				5E00BDCB1F7B58A200CF8AAD /* ResultViewController.swift */,
 				5E00BD9E1F7B57D800CF8AAD /* Main.storyboard */,
 				5E00BDA11F7B57D800CF8AAD /* Assets.xcassets */,
 				5E00BDA31F7B57D800CF8AAD /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E00BDC91F7B584800CF8AAD /* QuizViewController.swift in Sources */,
 				5E00BD9D1F7B57D800CF8AAD /* ViewController.swift in Sources */,
 				5E00BD9B1F7B57D800CF8AAD /* AppDelegate.swift in Sources */,
+				5E00BDCC1F7B58A200CF8AAD /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				5E00BDC11F7B57D900CF8AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E00BDC21F7B57D900CF8AAD /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				5E00BDC41F7B57D900CF8AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E00BDC51F7B57D900CF8AAD /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				5E00BDC71F7B57D900CF8AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
